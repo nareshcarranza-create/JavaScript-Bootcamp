@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="condiconal-anidado">
+            <h1>Condicionales anidados</h1>
+            <p>Estos condicionales permiten evaluar multiples condiciones jerarquicamente por medio de una estructura de If o If.....Else y en caso una condicion dentro de otra. Nos sirve para decisiones complejas donde (en caso del if..else) una segunda condicion depende de que la primera sea verdadera.</p>
+            <p>Un ejemplo de ello es:</p>
+        </div>
+
+        <div class="condiconal-anidado-imagen">
+            <img src="img/code.png" alt="">
+            <p>Como se puede ver en la imagen, en el primer condicional especificamos a la maquina que si la edad del usuario es mayor o igual a 18 ejecute el segundo bloque de codigo donde vemos otro if donde le indicamos a la maquina que si la respuesta a "tieneEntrada" es si entonces envie un mensaje al usuario que le diga "Puedes entrar." de lo contrario en el primer else le indique que "No puedes entrar: te falta la entrada "</p>
+        </div>
+        <br><br>
+
+
+
+        <h3>Verificación de Acceso</h3>
+    
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad">
+    <br><br>
+
+    <label for="ticket">¿Tiene entrada?</label>
+    <select id="ticket">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select>
+    <br><br>
+
+    <button onclick="verificar()">Comprobar</button>
+
+    <p id="mensaje"></p>
+
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
