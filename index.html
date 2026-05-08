@@ -22,22 +22,100 @@
 
 
 
-        <h3>Verificación de Acceso</h3>
+
+
+        <div class="ejemplo-condicional-anidado">
+        <h3>Verificación de Acceso, ejemplo funcional</h3>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad">
+        <br><br>
+
+        <label for="ticket">¿Tiene entrada?</label>
+        <select id="ticket">
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+        <br><br>
+
+        <button onclick="verificar()">Comprobar</button>
+
+        <p id="mensaje"></p>
+        </div>
+
     
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad">
-    <br><br>
 
-    <label for="ticket">¿Tiene entrada?</label>
-    <select id="ticket">
-        <option value="si">Sí</option>
-        <option value="no">No</option>
-    </select>
-    <br><br>
 
-    <button onclick="verificar()">Comprobar</button>
 
-    <p id="mensaje"></p>
+
+
+        
+        <div class="operadores-logicos">
+            <h1>Operadores logicos</h1>
+            <p>se utilizan para evaluar múltiples condiciones, devolviendo valores booleanos  <b  style="color: rgb(58, 46, 231);">true</b><b style="color: rgb(216, 63, 63);"> false</b> y son fundamentales para las estructuras de control <b style="color: rgb(218, 218, 77);">If</b> y <b style="color: violet;">While.</b></p>
+            <p>Los operadores lógicos más comunes son && (AND), || (OR), y ! (NOT), los cuales nos permiten construir expresiones lógicas más complejas.</p>
+            <br>
+
+
+
+            
+            <div class="tabla-operadores-logicos">
+                <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; font-size: 16px;">
+                <!-- Definir estilos por columna -->
+                <colgroup>
+                <col style="background-color: #D8F3DC; font-weight: bold;" />
+                <col style="background-color: #FFDDD2;" />
+                <col style="background-color: #CAF0F8;" />
+                </colgroup>
+                <!-- Encabezado de la tabla -->
+                <thead>
+                <tr>
+                <th style="border: 1px solid #aaa; padding: 10px; text-align: left;">OPERADOR</th>
+                <th style="border: 1px solid #aaa; padding: 10px; text-align: left;">NOMBRE</th>
+                <th style="border: 1px solid #aaa; padding: 10px; text-align: left;">DESCRIPCIÓN</th>
+                </tr>
+                </thead>
+                <!-- Cuerpo de la tabla -->
+                <tbody>
+                <tr>
+                <td style="border: 1px solid #aaa; padding: 10px;">&&</td>
+                <td style="border: 1px solid #aaa; padding: 10px;">AND</td>
+                <td style="border: 1px solid #aaa; padding: 10px;">Devuelve <b style="color: rgb(50, 50, 134);">true </b>si ambos operandos son <b style="color: rgb(50, 50, 134);">true </b></td>
+                </tr>
+                <tr>
+                <td style="border: 1px solid #aaa; padding: 10px;">||</td>
+                <td style="border: 1px solid #aaa; padding: 10px;">OR</td>
+                <td style="border: 1px solid #aaa; padding: 10px;">Devuelve true si al menos uno de los operandos es true</td>
+                </tr>
+                <tr>
+                <td style="border: 1px solid #aaa; padding: 10px;">!</td>
+                <td style="border: 1px solid #aaa; padding: 10px;">NOT</td>
+                <td style="border: 1px solid #aaa; padding: 10px;">Niega el valor</td>
+                </tr>
+                </tbody>
+                </table>
+            </div>
+            <br><br><br>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
     
