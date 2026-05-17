@@ -22,3 +22,4 @@ function verificar() {
         mensaje.textContent = "No puedes entrar: eres menor de edad.";
     }
 }
+

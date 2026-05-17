@@ -7,7 +7,6 @@
 
 
 
-
 .navbar {
     display: flex;
     justify-content: space-between; /* Separa el logo, los links y el botón */
@@ -105,12 +104,8 @@
 
 
 
-
-
-
-
 .contenedor-principal{
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 14px 10px;
     padding: 20px 20px 20px 20px;
     background-color: rgba(240, 255, 255, 0);
     display: flex;
@@ -122,9 +117,11 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.452); /* Sombra suave para dar profundidad */
 }
 
+
+
 p{
     letter-spacing: 1px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 h1{
@@ -132,65 +129,38 @@ h1{
     margin-bottom: 16px;
 }
 
+h2{
+    margin-bottom: 10%;
+}
 
 h3{
     margin-bottom: 18px;
 }
 
-
-
-
+b{
+    font-family: "Tiny5", sans-serif;
+}
 img{
     width:100%;
     height: 90%;
     margin-bottom: 20px;
 }
 
-
-
-/* Parte inicial, sobre condicionales anidados, textos */
-.condiconal-anidado{
-    
-}
-
-
-/* Estilos de formulario verificacion de acceso */
-.ejemplo-condicional-anidado{
-    width: 100%;
-    padding: 15px 0 15px 15px;
-    background: rgba(240, 240, 240, 0.308); /* Fondo semi-transparente */
-    backdrop-filter: blur(35px); /* Potente desenfoque del fondo detrás del cristal */
-    -webkit-backdrop-filter: blur(35px);
-    border-radius: 8px;
-    border: 1px solid rgba(41, 40, 40, 0.562); 
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.473); /* Sombra suave para dar profundidad */
-    
-    color: rgba(0, 0, 0, 0.95); /* Color de texto blanco integrado */
-    font-family: system-ui, -apple-system, sans-serif;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-/* Parte de la primera imagen */
 .contenedor-imagen{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    margin-bottom: 20%;
 }
 
-.operadores-logicos{
-    margin-top: 18%;
+
+
+
+
+
+.comando-npm{
+    
 }
 
-.tabla-operadores-logicos{
-    width: 80%;
-    height: 20%;
-    margin: 0 0 0 0;
+
+
+.express{
+    margin-top: 50px;
 }
