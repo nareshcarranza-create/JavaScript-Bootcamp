@@ -18,6 +18,7 @@
         <ul class="nav-links">
             <li><a href="../index.html">JavaScript</a></li>
             <li><a href="Nodejs.html" class="active" >Node js</a></li>
+            <li><a href="MongoDB.html">MongoDB</a></li>
         </ul>
 
         <div class="nav-actions">
@@ -66,9 +67,75 @@
 
             <div class="express">
                 <h2>¿Que es Express?</h2>
+                <div class="express-imagen">
+                    <img src="../img/Express js.png" alt="">
+                    <p>Express es el framework web más popular para Node.js. Funciona como una capa de herramientas que simplifica la creación de servidores y el manejo de peticiones HTTP, permitiendo construir APIs y aplicaciones web de forma rápida y estructurada, sin tener que escribir todo desde cero</p>
+                </div>
+
+                <h3>¿Que se puede realziar con este <b style="color: blueviolet;">framework</b> y como se usa?</h3>
+
+
+
+
+                <div class="grid-ejemplos">
+                    <div class="cards" style="background-image: url(../img/Microservicios.jpg);color: rgb(148, 0, 148); -webkit-text-stroke: 0.6px#6c0086;">Microservicios</div>
+
+                    <div class="cards" title="(Sistemas de Gestión de Contenido)" style="background-image: url(../img/cms.png); color: rgb(112, 11, 194); -webkit-text-stroke: 0.6px#5809be;">CMS</div>
+
+                    <div class="cards" style="background-image: url(../img/API.png); color: rgb(255, 255, 255); -webkit-text-stroke: 0.6px#ffffff;">APIs</div>
+
+                    <div class="cards" title="(Renderizado en el Servidor)" style="background-image: url(../img/SSR.jpg); color: rgb(255, 255, 255); -webkit-text-stroke: 0.6px#ffffff;">SSR</div>
+                </div>
+                <P>Express.js es sencillo ya que está diseñado para requerir muy pocas líneas de código para poner a andar un servidor. <b style="font-size: 20px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(231, 208, 36);">Se puede decir que el proceso se resume en 4 pasos:</b></P>
+
+
+
+                <div class="contenedor-lista">
+                    <ol>
+                        <li>Su instalación por medio de "npm install express"</li>
+                        <li>Su codigo basico: Creamos un archivo .js y escribimos su estructurea esencial.
+                            <img src="../img/estructura de express.png" alt="">
+                        </li>
+                        <li>Ejecucion: Corres tu archivo desde la terminal usando Node: node app.js</li>
+                        <li>Al abrir http://localhost:3000 en tu navegador, verás el mensaje en la pantalla.</li>
+                    </ol>
+                </div>
             </div>
 
 
+
+
+            <div class="package-json">
+                <h2>¿Que es el Package.json?</h2>
+
+                <p>El archivo package.json es el corazón de cualquier proyecto en el ecosistema de Node.js y JavaScript. Si tu proyecto fuera un electrodoméstico que acabas de comprar, el package.json sería una combinación entre el manual, la lista de componentes y el centro de control.
+
+                Es un archivo de texto escrito en formato JSON que se genera automáticamente en la raíz del proyecto cuando ejecutas el comando npm init.</p>
+
+                <h4>¿Para que sirve?</h4>
+                <ol>
+                    <li>La cédula de identidad del proyecto
+                        <p>Guarda la información básica para que otros desarrolladores (o plataformas de despliegue como Heroku o Vercel) sepan de qué trata el proyecto:</p>
+                        <ul>
+                            <li>Nombre del proyecto.</li>
+                            <li>Versión actual.</li>
+                            <li>Descripción.</li>
+                        </ul>
+                    </li>
+                    <li>La lista de compras (Dependencias)
+                        <p>Esta es su función más crucial. En lugar de arrastrar gigabytes de librerías y frameworks ajenos (como Express, React o Mongoose) cuando compartes tu código por GitHub, el package.json solo anota los nombres y las versiones exactas de lo que tu código necesita para funcionar.</p>
+                        <ul>
+                            <li>dependencies: Librerías que tu app necesita para correr en producción (ej. express).</li>
+                            <li>devDependencies: Herramientas que solo usas mientras estás programando, pero que no se necesitan en el servidor final (ej. un linter para revisar errores o herramientas de prueba).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Control de mandos (Scripts)
+                        <p>Permite crear "atajos" o comandos personalizados para tareas repetitivas. En lugar de escribir una línea de código larguísima en la terminal para arrancar tu servidor o compilar tus archivos, puedes resumirlo en algo corto.</p>
+                        <img src="../img/estructura json.png" alt="">
+                    </li>
+                </ol>
+            </div>
 
             <br><br><br>
 
